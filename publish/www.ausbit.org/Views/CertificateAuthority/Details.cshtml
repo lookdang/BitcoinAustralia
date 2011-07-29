@@ -1,0 +1,28 @@
+﻿@model www.ausbit.org.Models.Certificate
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Certificate: @Html.DisplayFor(model => model.Thingerprint) </h2>
+
+<fieldset>
+    <legend>
+            @Html.DisplayFor(model => model.Name)
+    </legend>
+
+    <div class="display-label">Level</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Level)
+    </div>
+
+    <div class="display-label">Data</div>
+    <div class="display-field">
+        @Html.TextAreaFor(model => model.Data,30,64,null)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Thingerprint }) |
+    @Html.ActionLink("Download", "Download", new { id = String.Format("{0}.cer",Model.Thingerprint)}) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -5,3 +5,10 @@ D:\Cameron Garnham\Documents\Visual Studio 2010\Projects\ausbit.org\crl.ausbit.o
 D:\Cameron Garnham\Documents\Visual Studio 2010\Projects\ausbit.org\crl.ausbit.org\obj\Debug\ResolveAssemblyReference.cache
 D:\Cameron Garnham\Documents\Visual Studio 2010\Projects\ausbit.org\crl.ausbit.org\obj\Debug\crl.ausbit.org.dll
 D:\Cameron Garnham\Documents\Visual Studio 2010\Projects\ausbit.org\crl.ausbit.org\obj\Debug\crl.ausbit.org.pdb
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\crl.ausbit.org\bin\crl.ausbit.org.dll
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\crl.ausbit.org\bin\crl.ausbit.org.pdb
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\crl.ausbit.org\bin\EntityFramework.dll
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\crl.ausbit.org\bin\EntityFramework.xml
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\crl.ausbit.org\obj\Debug\ResolveAssemblyReference.cache
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\crl.ausbit.org\obj\Debug\crl.ausbit.org.dll
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\crl.ausbit.org\obj\Debug\crl.ausbit.org.pdb
