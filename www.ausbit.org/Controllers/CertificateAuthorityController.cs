@@ -9,12 +9,20 @@ namespace www.ausbit.org.Controllers
 {
     public class CertificateAuthorityController : Controller
     {
+        private Certs myCerts;
+
+        public CertificateAuthorityController()
+        {
+            myCerts = new Certs();
+        }
+
+
         //
         // GET: /CertificateAuthority/
 
         public ActionResult Index(string level = "Root")
         {
-            var myCerts = new Certs();
+             
             var roots = from root in myCerts.certs
                          where root.Level == level
                          select root;
@@ -27,8 +35,6 @@ namespace www.ausbit.org.Controllers
 
         public ActionResult Details(string id)
         {
-            var myCerts = new Certs();
-
             var cert = (from root in myCerts.certs
                         where root.Thingerprint == id
                         select root).First();
@@ -38,8 +44,6 @@ namespace www.ausbit.org.Controllers
 
         public ActionResult Download(string id)
         {
-            var myCerts = new Certs();
-
             var cert = (from root in myCerts.certs
                         where String.Format("{0}.cer",root.Thingerprint) == id
                         select root).First();
@@ -50,7 +54,6 @@ namespace www.ausbit.org.Controllers
 
         public ActionResult RootCert()
         {
-            var myCerts = new Certs();
             var root = (from aRoot in myCerts.certs
                          where aRoot.Level == "Root"
                          select aRoot).First();

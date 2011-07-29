@@ -1,0 +1,7 @@
+D:\Cameron Garnham\Documents\Visual Studio 2010\Projects\ausbit.org\cert.ausbit.org\bin\cert.ausbit.org.dll
+D:\Cameron Garnham\Documents\Visual Studio 2010\Projects\ausbit.org\cert.ausbit.org\bin\cert.ausbit.org.pdb
+D:\Cameron Garnham\Documents\Visual Studio 2010\Projects\ausbit.org\cert.ausbit.org\bin\EntityFramework.dll
+D:\Cameron Garnham\Documents\Visual Studio 2010\Projects\ausbit.org\cert.ausbit.org\bin\EntityFramework.xml
+D:\Cameron Garnham\Documents\Visual Studio 2010\Projects\ausbit.org\cert.ausbit.org\obj\Debug\ResolveAssemblyReference.cache
+D:\Cameron Garnham\Documents\Visual Studio 2010\Projects\ausbit.org\cert.ausbit.org\obj\Debug\cert.ausbit.org.dll
+D:\Cameron Garnham\Documents\Visual Studio 2010\Projects\ausbit.org\cert.ausbit.org\obj\Debug\cert.ausbit.org.pdb
