@@ -3,6 +3,8 @@
 @{
     ViewBag.Title = "Details";
 }
+@using www.ausbit.org.Helpers
+
 
 <h2>Certificate: @Html.DisplayFor(model => model.Thingerprint) </h2>
 
@@ -18,7 +20,7 @@
 
     <div class="display-label">Data</div>
     <div class="display-field">
-        @Html.TextAreaFor(model => model.Data,30,64,null)
+        @Html.NewlineToBr(Model.Data)
     </div>
 </fieldset>
 <p>
