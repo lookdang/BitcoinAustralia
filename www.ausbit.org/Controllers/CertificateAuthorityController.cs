@@ -49,7 +49,7 @@ namespace www.ausbit.org.Controllers
                         select root).First();
 
 
-            return new FileContentResult(System.Text.Encoding.ASCII.GetBytes(cert.Data), "application/x-x509-ca-certificate");
+            return new FileContentResult(System.Text.Encoding.ASCII.GetBytes(cert.Data), "application/x-x509-ca-cert");
         }
 
         public ActionResult RootCert()
