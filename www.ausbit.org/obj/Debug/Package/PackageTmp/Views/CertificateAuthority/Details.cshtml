@@ -24,7 +24,7 @@
     </div>
 </fieldset>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id=Model.Thingerprint }) |
+  @*  @Html.ActionLink("Edit", "Edit", new { id=Model.Thingerprint }) |*@
     @Html.ActionLink("Download", "Download", new { id = String.Format("{0}.cer",Model.Thingerprint)}) |
     @Html.ActionLink("Back to List", "Index")
 </p>

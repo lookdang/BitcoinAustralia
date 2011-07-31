@@ -9,7 +9,7 @@
 <h2>List</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+   @* @Html.ActionLink("Create New", "Create")*@
 </p>
 <table>
     <tr>
@@ -19,9 +19,9 @@
         <th>
             Level
         </th>
-        <th>
+@*        <th>
             Data
-        </th>
+        </th>*@
         <th>
             Thingerprint
         </th>
@@ -36,16 +36,14 @@
         <td>
             @Html.DisplayFor(modelItem => item.Level)
         </td>
-        <td>
+@*        <td>
         @Html.NewlineToBr(item.Data)
+        </td>*@
+        <td>
+            @Html.ActionLink(Html.DisplayFor(modelItem => item.Thingerprint).ToString(), "Details", new { id = item.Thingerprint })
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Thingerprint)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            @Html.ActionLink("Download", "Download", new { id = String.Format("{0}.cer",item.Thingerprint)})
         </td>
     </tr>
 }
