@@ -1,2 +1,0 @@
-V	120730165118Z		01	unknown	/C=aa/ST=aaa/O=Bitcoin Australia/OU=Secure Digital Certificate Signing/CN=Bitcoin Australia Certification Authority
-V	120730165129Z		02	unknown	/C=AU/ST=Victoria/O=Bitcoin Australia/OU=Server/CN=*.bitcoin.com.au
