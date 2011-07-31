@@ -1,0 +1,2 @@
+V	210728165004Z		01	unknown	/O=Bitcoin Australia/OU=Secure Digital Certificate Signing/CN=Bitcoin Australia Certification Authority
+V	120730165033Z		02	unknown	/O=Bitcoin Australia/OU=Secure Digital Certificate Signing/CN=Bitcoin Australia Certification Authority
