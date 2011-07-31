@@ -6,7 +6,9 @@
 <ul>
     @foreach(var item in Model){
         <li>
-            @Html.ActionLink(item.Name, "Details", new { id = item.Thingerprint });
+            @Html.ActionLink(item.Name, "Details", new { id = item.Thingerprint })
         </li>
         }
 </ul>
+
+@Html.ActionLink("Full List", "List")

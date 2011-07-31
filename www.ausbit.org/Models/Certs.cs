@@ -18,32 +18,66 @@ namespace www.ausbit.org.Models
         {
             certs = new List<Certificate>();
 
-            root = new Certificate();
-            root.Name = "Bitcoin Australia Root Certificate";
-            root.Level = "Root";
-            root.Data = @"-----BEGIN CERTIFICATE-----
-MIIC3jCCAoSgAwIBAgIJANIRH55D3ypEMAoGCCqGSM49BAMCMH0xGjAYBgNVBAoM
-EUJpdGNvaW4gQXVzdHJhbGlhMSswKQYDVQQLDCJTZWN1cmUgRGlnaXRhbCBDZXJ0
-aWZpY2F0ZSBTaWduaW5nMTIwMAYDVQQDDClCaXRjb2luIEF1c3RyYWxpYSBDZXJ0
-aWZpY2F0aW9uIEF1dGhvcml0eTAeFw0xMTA3MTcyMTU1MDdaFw0yMTA3MTQyMTU1
-MDdaMH0xGjAYBgNVBAoMEUJpdGNvaW4gQXVzdHJhbGlhMSswKQYDVQQLDCJTZWN1
-cmUgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBTaWduaW5nMTIwMAYDVQQDDClCaXRjb2lu
-IEF1c3RyYWxpYSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTBZMBMGByqGSM49AgEG
-CCqGSM49AwEHA0IABGJvp+pSPc5TBBoa4ZvftEOByqkS0M/rH0mqi7S1Vyq5YSX0
-bgD3R1XGVAx1HrM6bfGUmHxxsUOt2hAZJVVINK+jgewwgekwDAYDVR0TBAUwAwEB
-/zALBgNVHQ8EBAMCAa4wHQYDVR0OBBYEFIoLYp5NhYWsSrqI/g6oMvnyjE+NMDsG
-A1UdJQQ0MDIGCCsGAQUFBwMBBggrBgEFBQcDAgYIKwYBBQUHAwQGCCsGAQUFBwMD
-BggrBgEFBQcDCDBwBgNVHR8EaTBnMDKgMKAuhixodHRwOi8vY2VydC5iaXRjb2lu
-LmNvbS5hdS9iYV9jYWNlcnQtY3JsLmNybDAxoC+gLYYraHR0cDovL2NybC5iaXRj
-b2luLmNvbS5hdS9iYV9jYWNlcnQtY3JsLmNybDAKBggqhkjOPQQDAgNIADBFAiEA
-x1JM3F0AoTlZ2fEi79hXU0CFCtGtQfjCRVqtl/HBM38CIGdvDiFtCv65tCk5i6hf
-rBVloAyq84/hiVz5GIo2PVI8    
------END CERTIFICATE-----";
-            root.Thingerprint = "fa5fdf7e7f7d70414d20716ebb97bc48d14ec71d";
-
-
-            certs.Add(root);
             
+            certs.Add(rootCert());
+            certs.Add(intermediaryCert());
+            
+        }
+
+        private Certificate rootCert()
+        {
+            var cert = new Certificate();
+            cert = new Certificate();
+            cert.Name = "Bitcoin Australia Certification Authority";
+            cert.Level = "Root";
+            cert.Data = @"-----BEGIN CERTIFICATE-----
+MIIC9DCCApqgAwIBAgIBATAKBggqhkjOPQQDAjB9MRowGAYDVQQKDBFCaXRjb2lu
+IEF1c3RyYWxpYTErMCkGA1UECwwiU2VjdXJlIERpZ2l0YWwgQ2VydGlmaWNhdGUg
+U2lnbmluZzEyMDAGA1UEAwwpQml0Y29pbiBBdXN0cmFsaWEgQ2VydGlmaWNhdGlv
+biBBdXRob3JpdHkwHhcNMTEwNzMxMTcyNTE5WhcNMjEwNzI4MTcyNTE5WjB9MRow
+GAYDVQQKDBFCaXRjb2luIEF1c3RyYWxpYTErMCkGA1UECwwiU2VjdXJlIERpZ2l0
+YWwgQ2VydGlmaWNhdGUgU2lnbmluZzEyMDAGA1UEAwwpQml0Y29pbiBBdXN0cmFs
+aWEgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkwWTATBgcqhkjOPQIBBggqhkjOPQMB
+BwNCAAQwgtVlwebKzDEL+zTmD72kmvu5BGvjwJPovT1G9z87aEtTC5N79/8JFwxX
+C977Mngz1QobFjbIU9lsL3ojM978o4IBCTCCAQUwDAYDVR0TBAUwAwEB/zALBgNV
+HQ8EBAMCAa4wHQYDVR0OBBYEFL6YNhK+TGSa0VjifwtGY3td3aHQMDsGA1UdJQQ0
+MDIGCCsGAQUFBwMBBggrBgEFBQcDAgYIKwYBBQUHAwQGCCsGAQUFBwMDBggrBgEF
+BQcDCDCBiwYDVR0fBIGDMIGAMCegJaAjhiFodHRwOi8vY3JsLmF1c2JpdC5vcmcv
+cm9vdF9jYS5jcmwwKKAmoCSGImh0dHA6Ly9jZXJ0LmF1c2JpdC5vcmcvcm9vdF9j
+YS5jcmwwK6ApoCeGJWh0dHA6Ly9jZXJ0LmJ0Y2F1cy5jb20vYmFfcm9vdF9jYS5j
+cmwwCgYIKoZIzj0EAwIDSAAwRQIhAME7oOxnijk6YvfrfQOKqNGLTM+ykxqR5dL9
+pK7spWBHAiAMOtvVGJJu2appsl2o80U6//Xeu3/DzlfHgu/TqhvWnA==
+-----END CERTIFICATE-----";
+            cert.Thingerprint = "cffe886aef0839d8bd4a7cdf72d636a35d01f203";
+            return cert;
+        }
+
+        private Certificate intermediaryCert()
+        {
+            var cert = new Certificate();
+            cert = new Certificate();
+            cert.Name = "Bitcoin Australia Intermediary CA 1";
+            cert.Level = "Intermediary";
+            cert.Data = @"-----BEGIN CERTIFICATE-----
+MIIC8DCCApegAwIBAgIBAjAKBggqhkjOPQQDAjB9MRowGAYDVQQKDBFCaXRjb2lu
+IEF1c3RyYWxpYTErMCkGA1UECwwiU2VjdXJlIERpZ2l0YWwgQ2VydGlmaWNhdGUg
+U2lnbmluZzEyMDAGA1UEAwwpQml0Y29pbiBBdXN0cmFsaWEgQ2VydGlmaWNhdGlv
+biBBdXRob3JpdHkwHhcNMTEwNzMxMTczMTM3WhcNMTIwNzMwMTczMTM3WjB3MRow
+GAYDVQQKDBFCaXRjb2luIEF1c3RyYWxpYTErMCkGA1UECwwiU2VjdXJlIERpZ2l0
+YWwgQ2VydGlmaWNhdGUgU2lnbmluZzEsMCoGA1UEAwwjQml0Y29pbiBBdXN0cmFs
+aWEgSW50ZXJtZWRpYXJ5IENBIDEwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAARx
+Rh71UjcdQsC24PDOME3NbQjm//BX/v6SkgjbP8d0sPcDhySuN8D4ARdAXATivrIN
+XAuGGhzIj8MiFFdscl5do4IBDDCCAQgwDAYDVR0TBAUwAwEB/zALBgNVHQ8EBAMC
+AQYwHQYDVR0OBBYEFCwhyuLeM/cRMmKgAHUyNuWhc/wPMIGLBgNVHR8EgYMwgYAw
+J6AloCOGIWh0dHA6Ly9jcmwuYXVzYml0Lm9yZy9yb290X2NhLmNybDAooCagJIYi
+aHR0cDovL2NlcnQuYXVzYml0Lm9yZy9yb290X2NhLmNybDAroCmgJ4YlaHR0cDov
+L2NlcnQuYnRjYXVzLmNvbS9iYV9yb290X2NhLmNybDA+BggrBgEFBQcBAQQyMDAw
+LgYIKwYBBQUHMAKGImh0dHA6Ly9jZXJ0LmF1c2JpdC5vcmcvcm9vdF9jYS5jcnQw
+CgYIKoZIzj0EAwIDRwAwRAIgAMErq/ZR6FrLf7h3tOETrQzPHV2xoJc3luRsy74U
+GN4CIHjT+7cWjzw1/XiSeGbuLPy1O1xoC0eg/m7v2sIbklxE
+-----END CERTIFICATE-----";
+            cert.Thingerprint = "‎547303cdbc9ac4b437932b472d052d5b62ef0b8c";
+            return cert;
         }
     }
 

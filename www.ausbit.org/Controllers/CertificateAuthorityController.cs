@@ -22,12 +22,19 @@ namespace www.ausbit.org.Controllers
 
         public ActionResult Index(string level = "Root")
         {
-             
             var roots = from root in myCerts.certs
                          where root.Level == level
                          select root;
 
-            return View(model:roots);
+            return View(model: roots);
+        }
+
+        //
+        // GET: /CertificateAuthority/List/5
+
+        public ActionResult List()
+        {
+            return View(model: myCerts.certs);
         }
 
         //
