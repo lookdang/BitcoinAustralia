@@ -1,0 +1,8 @@
+D:\Cameron Garnham\Documents\websites\bitcoin.com.au\www.bitcoin.com.au\www.bitcoin.com.au.Tests\bin\Debug\bitcoin.com.au.Tests.dll.config
+D:\Cameron Garnham\Documents\websites\bitcoin.com.au\www.bitcoin.com.au\www.bitcoin.com.au.Tests\bin\Debug\bitcoin.com.au.Tests.dll
+D:\Cameron Garnham\Documents\websites\bitcoin.com.au\www.bitcoin.com.au\www.bitcoin.com.au.Tests\bin\Debug\bitcoin.com.au.Tests.pdb
+D:\Cameron Garnham\Documents\websites\bitcoin.com.au\www.bitcoin.com.au\www.bitcoin.com.au.Tests\bin\Debug\www.bitcoin.com.au.dll
+D:\Cameron Garnham\Documents\websites\bitcoin.com.au\www.bitcoin.com.au\www.bitcoin.com.au.Tests\bin\Debug\www.bitcoin.com.au.pdb
+D:\Cameron Garnham\Documents\websites\bitcoin.com.au\www.bitcoin.com.au\www.bitcoin.com.au.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\Cameron Garnham\Documents\websites\bitcoin.com.au\www.bitcoin.com.au\www.bitcoin.com.au.Tests\obj\Debug\bitcoin.com.au.Tests.dll
+D:\Cameron Garnham\Documents\websites\bitcoin.com.au\www.bitcoin.com.au\www.bitcoin.com.au.Tests\obj\Debug\bitcoin.com.au.Tests.pdb

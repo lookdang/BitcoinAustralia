@@ -1,0 +1,51 @@
+﻿@model IEnumerable<www.ausbit.org.Models.Certificate>
+
+@{
+    ViewBag.Title = "List";
+}
+
+@using www.ausbit.org.Helpers
+
+<h2>List</h2>
+
+<p>
+   @* @Html.ActionLink("Create New", "Create")*@
+</p>
+<table>
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Level
+        </th>
+@*        <th>
+            Data
+        </th>*@
+        <th>
+            Thingerprint
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Level)
+        </td>
+@*        <td>
+        @Html.NewlineToBr(item.Data)
+        </td>*@
+        <td>
+            @Html.ActionLink(Html.DisplayFor(modelItem => item.Thingerprint).ToString(), "Details", new { id = item.Thingerprint })
+        </td>
+        <td>
+            @Html.ActionLink("Download", "Download", new { id = String.Format("{0}.cer",item.Thingerprint)})
+        </td>
+    </tr>
+}
+
+</table>

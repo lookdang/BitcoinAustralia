@@ -1,0 +1,7 @@
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\development\www.ausbit.org\bin\www.ausbit.org.dll
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\development\www.ausbit.org\bin\www.ausbit.org.pdb
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\development\www.ausbit.org\bin\EntityFramework.dll
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\development\www.ausbit.org\bin\EntityFramework.xml
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\development\www.ausbit.org\obj\Release\ResolveAssemblyReference.cache
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\development\www.ausbit.org\obj\Release\www.ausbit.org.dll
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\development\www.ausbit.org\obj\Release\www.ausbit.org.pdb

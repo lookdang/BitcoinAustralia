@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "www.ausbit.org", "www.ausbi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "www.ausbit.org.Tests", "www.ausbit.org.Tests\www.ausbit.org.Tests.csproj", "{615FB2CD-18F5-4C69-A679-445D247F1455}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "www.bitcoin.com.au", "www.bitcoin.com.au\www.bitcoin.com.au.csproj", "{CF5DE6DD-51F0-4BF1-B1CA-30C85BBCEC10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "www.bitcoin.com.au.Tests", "www.bitcoin.com.au.Tests\www.bitcoin.com.au.Tests.csproj", "{3D4FF13E-6003-41DD-B348-90D7E1256E3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{615FB2CD-18F5-4C69-A679-445D247F1455}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{615FB2CD-18F5-4C69-A679-445D247F1455}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{615FB2CD-18F5-4C69-A679-445D247F1455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF5DE6DD-51F0-4BF1-B1CA-30C85BBCEC10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF5DE6DD-51F0-4BF1-B1CA-30C85BBCEC10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF5DE6DD-51F0-4BF1-B1CA-30C85BBCEC10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF5DE6DD-51F0-4BF1-B1CA-30C85BBCEC10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D4FF13E-6003-41DD-B348-90D7E1256E3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D4FF13E-6003-41DD-B348-90D7E1256E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D4FF13E-6003-41DD-B348-90D7E1256E3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D4FF13E-6003-41DD-B348-90D7E1256E3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,14 @@
+﻿@model IEnumerable<www.ausbit.org.Models.Certificate>
+@{
+    ViewBag.Title = "Certificate Authority : Index";
+}
+@{Html.RenderPartial("_Introduction");}
+<ul>
+    @foreach(var item in Model){
+        <li>
+            @Html.ActionLink(item.Name, "Details", new { id = item.Thingerprint })
+        </li>
+        }
+</ul>
+
+@Html.ActionLink("Full List", "List")

@@ -1,0 +1,7 @@
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\development\www.bitcoin.com.au\bin\www.bitcoin.com.au.dll
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\development\www.bitcoin.com.au\bin\www.bitcoin.com.au.pdb
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\development\www.bitcoin.com.au\bin\EntityFramework.dll
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\development\www.bitcoin.com.au\bin\EntityFramework.xml
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\development\www.bitcoin.com.au\obj\Release\ResolveAssemblyReference.cache
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\development\www.bitcoin.com.au\obj\Release\www.bitcoin.com.au.dll
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\development\www.bitcoin.com.au\obj\Release\www.bitcoin.com.au.pdb
