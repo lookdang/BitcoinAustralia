@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <publishData>
-  <publishProfile publishUrl="D:\Cameron Garnham\Documents\websites\bitcoin.com.au\www.bitcoin.com.au\publish\www.bitcoin.com.au" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+  <publishProfile publishUrl="D:\Cameron Garnham\Documents\websites\BitcoinAustralia\publish\www.bitcoin.com.au" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
     <file relUrl="Scripts/jquery.validate.unobtrusive.js" publishTime="07/05/2011 00:19:52" />
     <file relUrl="Content/themes/base/jquery.ui.resizable.css" publishTime="07/05/2011 00:19:54" />
     <file relUrl="Views/Account/Register.cshtml" publishTime="07/18/2011 00:10:33" />
