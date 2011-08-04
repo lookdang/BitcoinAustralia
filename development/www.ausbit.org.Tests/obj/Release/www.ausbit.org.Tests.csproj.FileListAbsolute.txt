@@ -1,0 +1,8 @@
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\development\www.ausbit.org.Tests\bin\Release\www.ausbit.org.Tests.dll.config
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\development\www.ausbit.org.Tests\bin\Release\www.ausbit.org.Tests.dll
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\development\www.ausbit.org.Tests\bin\Release\www.ausbit.org.Tests.pdb
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\development\www.ausbit.org.Tests\bin\Release\www.ausbit.org.dll
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\development\www.ausbit.org.Tests\bin\Release\www.ausbit.org.pdb
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\development\www.ausbit.org.Tests\obj\Release\ResolveAssemblyReference.cache
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\development\www.ausbit.org.Tests\obj\Release\www.ausbit.org.Tests.dll
+D:\Cameron Garnham\Documents\websites\BitcoinAustralia\development\www.ausbit.org.Tests\obj\Release\www.ausbit.org.Tests.pdb
