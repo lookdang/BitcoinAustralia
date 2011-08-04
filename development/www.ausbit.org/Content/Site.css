@@ -303,6 +303,15 @@ div#title
     color: White;
 }
 
+#webmaildisplay
+{
+    font-size: 1.1em;
+    display : block;
+    text-align: right;
+    margin: 10px;
+    color: White;
+}
+
 #logindisplay a:link
 {
     color: white;
